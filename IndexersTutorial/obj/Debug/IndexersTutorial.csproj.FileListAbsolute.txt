@@ -1,0 +1,7 @@
+C:\Users\Nemanja Djordjevic\source\repos\IndexersTutorial\IndexersTutorial\bin\Debug\IndexersTutorial.exe.config
+C:\Users\Nemanja Djordjevic\source\repos\IndexersTutorial\IndexersTutorial\bin\Debug\IndexersTutorial.exe
+C:\Users\Nemanja Djordjevic\source\repos\IndexersTutorial\IndexersTutorial\bin\Debug\IndexersTutorial.pdb
+C:\Users\Nemanja Djordjevic\source\repos\IndexersTutorial\IndexersTutorial\obj\Debug\IndexersTutorial.csprojAssemblyReference.cache
+C:\Users\Nemanja Djordjevic\source\repos\IndexersTutorial\IndexersTutorial\obj\Debug\IndexersTutorial.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja Djordjevic\source\repos\IndexersTutorial\IndexersTutorial\obj\Debug\IndexersTutorial.exe
+C:\Users\Nemanja Djordjevic\source\repos\IndexersTutorial\IndexersTutorial\obj\Debug\IndexersTutorial.pdb

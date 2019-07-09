@@ -1,0 +1,43 @@
+﻿Indekseri omogucavaju klasama ili struct-ima da se ponasaju kao nizovi.
+Indekseri su poznati kao "pametni nizovi" u c#.
+Indekser omogucava pristup clanu varijable klase koristeci funkcije za nizove.
+
+private string[] names = new string[10]; // <modifier> <return type> this [argument list]
+
+public string this[int i]
+{
+	get { return names[i]; }
+	set { names[i] = value; }
+}
+
+<modifier> - Can be private, public, protected or internal
+
+<return type> - Can be any valid C# type
+
+this - this is a special keyword in C# to indicate the object of the current class
+
+[argument list] - the formal-argument-list specifies the parameters of the indexer
+
+Vazna napomena:
+-Indekseri se uvek kreiraju pomocu "this" reci
+-Parametarizovani propertiji se nazivaju indekser
+-Indekseri se implementuju preko get i set akcesora za [] operator
+-ref i out modifieri nisu dozvoljeni u indekseru
+-Indekser je clan instance pa ne moze biti statican ali properti moze biti statican
+-Indekseri se koriste za grupu elemenata
+-Indekser se identifikuje preko signatura a properti se identifikuje preko imena
+-Indekserima se pristupa koriscenjem indeksa dok propertijima se pristupa preko imena
+-Indeksi mogu da se overloaduju
+
+Indekseri se definisu kao i propertiji sa get i set funkcijama. Glavna razlika je sto u imenu indeksera stoji
+kljucna rec "this"
+
+-Indekseri se kreiraju pomocu "this" reci / Propertijima ne treba "this" rec
+-Indekseri se identifikuju preko signatura / Propertiji se identifikuju preko imena
+-Indekserima se pristupa preko indeksa / Propertijima se pristupa preko imena
+-Indekseri su clanovi instance pa ne mogu biti static / Propertiji mogu biti static kao i clanovi instance
+-Get accessor od indeksera ima isti formal parameter list kao i indekser / Get accessor propertija nema parametre
+-Set accessor indeksera ima isti formal parameter list kao i indekser plus value parametar / Set accessor propertija
+sadrzi implicitne value parametre
+
+Indekseri se koriste za klase, gde prezentuju strukturu podataka, kao nizovi, liste, mape itd...
